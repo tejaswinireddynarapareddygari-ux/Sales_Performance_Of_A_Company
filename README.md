@@ -84,7 +84,7 @@ slicer.png.png
 ## 🔗 View Complete Excel Workbook
 
 You can view the complete Excel workbook online using the link below:
-https://docs.google.com/spreadsheets/d/196Gc_yCTO5sfZuFtOje95YT9rvdhhfhP/edit?usp=drive_link&ouid=109359093032786120930&rtpof=true&sd=true
+https://drive.google.com/drive/folders/1qP7kugO7dk4bJt5W1WeDLuQk7pc3NJbZ?usp=drive_link
 
 ---
 
