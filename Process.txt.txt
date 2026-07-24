@@ -1,0 +1,40 @@
+---> to get color to table press ctrl+t
+---> to get a change in student name right click on sheet name and click rename
+  
+
+--->	to change currency format from dollars to rupees go to ctrl+1
+---> to add a new column in the table to entire one we can add using =IF([@coln header]]=0,"yes","no")
+---> to get only specific things click right on header select only yes or no if you want records we can check at end of excel.
+
+
+--->  put date on rows and purchase amount on values if you drag you can see the values if you double click on certain cell you can see who purchased . 
+
+
+--->	for specific person ex subbarao right click on his cell and select filters we can get specific person values but when we want another person other than subbarao open another sheet put name which you want and no.of records and total purchased an highest also , all the data use formulas 
+
+		i) no.of records -  =COUNTIFS(table name[first name],c3)
+		ii) total purchased =SUMIFS(table name[Purchase Amount],sales[first name],c3)
+		iii) highest =MAXIFS(table name[Purchase Amount],sales[first name],c3)
+		iv) all the data =FILTER(table name, sales[first name]=c3,"Not Found)
+
+
+
+--->   put purchase mode on rows and amount in values and count of id if you want how many are actually purchased then copy modes of purchase and paste out of the box and put colums such as amt , txns , sucessful 
+
+			i)	for amount =SUMIFS(table name[purchase amount] , table name[purchase mode],cell name) if you want it for all rows then select all the modes and click enter then you will get
+		
+			ii)    for txns use counifs  =COUNTIFS(table name[purchase mode],cell values )
+
+			iii)	foe sucessful use =COUNTIFS(table name[purchase mode],cell values , table name[status] , " yes ")
+
+			iv)   if you want sucess percent then divide sucessful/txns like =J4#/I4#
+
+
+
+
+---->	for data analysis based on job titles to know how much they do business for us create a pivot table put job title on rows and months on columns and months(date) on clumns and sum of purchase amount on values i
+
+	---> to make it dynamic  right click on purchase mode and click add as a slicer if you want more than one mode press ctrl and hold or if you want all on top of slicer you have a filter button or clear button
+
+
+
